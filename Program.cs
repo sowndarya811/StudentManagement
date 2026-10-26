@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("Student Management System");
         Console.WriteLine("Welcome to Student Management System");
-        Console.WriteLine("Student Search Feature");
+        Console.WriteLine("Student Phone Feature");
         Console.WriteLine("Search students by name or ID");
     }
 }
