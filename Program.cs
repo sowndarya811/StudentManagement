@@ -8,5 +8,6 @@ class Program
         Console.WriteLine("Welcome to Student Management System");
         Console.WriteLine("Student Phone Feature");
         Console.WriteLine("Search students by name or ID");
+        Console.WriteLine("Student Registration Feature");
     }
 }
