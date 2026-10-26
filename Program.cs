@@ -9,5 +9,6 @@ class Program
         Console.WriteLine("Student Phone Feature");
         Console.WriteLine("Search students by name or ID");
         Console.WriteLine("Student Registration Feature");
+        Console.WriteLine("View Students Feature");
     }
 }
