@@ -11,5 +11,6 @@ class Program
         Console.WriteLine("Student Registration Feature");
         Console.WriteLine("View Students Feature");
         Console.WriteLine("Update Student Feature");
+        Console.WriteLine("Delete Student Feature");
     }
 }
