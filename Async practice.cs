@@ -256,18 +256,16 @@ namespace StudentManagement
 
         public async Task Run()
         {
-
-
-             //await BasicAsync();
+            //await BasicAsync();
 
             await TaskTrackingAsync();
-            //await SequentialAsync();
-             //await ConcurrentAsync();
-            //await WhenAllAsync();
-            // await WhenAnyAsync();
-            //await ExceptionHandlingAsync();
-            // await CancellationAsync();
 
+            //await SequentialAsync();
+            //await ConcurrentAsync();
+            //await WhenAllAsync();
+            //await WhenAnyAsync();
+            //await ExceptionHandlingAsync();
+            //await CancellationAsync();
         }
     }
 
