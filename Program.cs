@@ -1,16 +1,16 @@
 ﻿using System;
-
-class Program
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Text;
+using StudentManagement;
+namespace StudentManagement
 {
-    static void Main()
+    public class Example
     {
-        Console.WriteLine("Student Management System");
-        Console.WriteLine("Welcome to Student Management System");
-        Console.WriteLine("Student Phone Feature");
-        Console.WriteLine("Search students by name or ID");
-        Console.WriteLine("Student Registration Feature");
-        Console.WriteLine("View Students Feature");
-        Console.WriteLine("Update Student Feature");
-        Console.WriteLine("Delete Student Feature");
+        public static async Task Main(string[] args)
+    {
+            LearnAsyncProgramming obj = new LearnAsyncProgramming();
+            await obj.Run();
+    }
     }
 }
