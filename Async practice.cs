@@ -258,7 +258,7 @@ namespace StudentManagement
         {
 
 
-             //await BasicAsync();
+             await BasicAsync();
 
             //await TaskTrackingAsync();
             //await SequentialAsync();
@@ -266,7 +266,7 @@ namespace StudentManagement
             //await WhenAllAsync();
             // await WhenAnyAsync();
             //await ExceptionHandlingAsync();
-             await CancellationAsync();
+             //await CancellationAsync();
 
         }
     }
